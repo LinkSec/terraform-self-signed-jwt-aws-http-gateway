@@ -29,7 +29,7 @@ Use the filepath of `jwks.json` as input for the `terraform-self-signed-jwt-aws-
 ## Deployment
 ```hcl
 module "self-signed-jwt-auth" {
-    source="https://github.com/dropdump/terraform-self-signed-jwt-aws-http-gateway/"
+    source = "github.com/dropdump/terraform-self-signed-jwt-aws-http-gateway"
     path_to_jwks = "/path/to/jwks.json"
 }
 
